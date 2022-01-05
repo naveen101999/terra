@@ -2,7 +2,7 @@ provider "aws" {
 profile ="default"
 region ="us-east-1"
 }
-resource "aws_instance" "my terra" {
+resource "aws_instance" "my_terra" {
 ami            =" ami-04505e74c0741db8d"
 instance_type  ="t2.micro"
 iam_instance_profile ="demo-Role"
